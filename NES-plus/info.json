@@ -1,0 +1,156 @@
+{
+  "name": "Standard NES PLUS ( portrait only ) ",
+  "identifier": "com.delta.nes.standardPLUS",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.nes",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "edgeToEdge": {
+        "portrait": {
+          "assets": {
+            "resizable": "iphone_edgetoedge_portrait.pdf"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 22,
+                "y": 55,
+                "width": 121,
+                "height": 121
+              },
+              "extendedEdges": {
+                "top": 15,
+                "bottom": 15,
+                "left": 22,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 242,
+                "y": 84,
+                "width": 56,
+                "height": 56
+              },
+              "extendedEdges": {
+                "right": 23
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 171,
+                "y": 84,
+                "width": 56,
+                "height": 56
+              }
+            },
+            {
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 174,
+                "y": 204,
+                "width": 37,
+                "height": 13
+              },
+              "extendedEdges": {
+                "top": 15,
+                "bottom": 15,
+                "left": 15,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 109,
+                "y": 204,
+                "width": 37,
+                "height": 13
+              },
+              "extendedEdges": {
+                "top": 15,
+                "bottom": 15,
+                "left": 15,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 280,
+                "y": 44,
+                "width": 18,
+                "height": 18
+              },
+              "extendedEdges": {
+                "top": 30,
+                "left": 15,
+                "right": 22
+              }
+            },
+            {
+              "inputs": [
+                "fastForward"
+              ],
+              "frame": {
+                "x": 277,
+                "y": 231,
+                "width": 19,
+                "height": 18
+              },
+              "extendedEdges": {
+                "top": 5,
+                "left": 45,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 20,
+                "y": 230,
+                "width": 18,
+                "height": 18
+              },
+              "extendedEdges": {
+                "top": 5,
+                "left": 5,
+                "right": 50
+              }
+            }
+          ],
+          "mappingSize": {
+            "width": 320,
+            "height": 274
+          },
+          "extendedEdges": {
+            "top": 7,
+            "bottom": 7,
+            "left": 7,
+            "right": 7
+          }
+        }
+      }
+    }
+  }
+}
