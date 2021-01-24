@@ -1,6 +1,6 @@
 {
   "name": "SNES Earthbound One Hand ( Portrait Only )",
-  "identifier": "com.delta.snes.standard",
+  "identifier": "com.delta.snes.earthboundonehand",
   "gameTypeIdentifier": "com.rileytestut.delta.game.snes",
   "debug": false,
   "representations": {
